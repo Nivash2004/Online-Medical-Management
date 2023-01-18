@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="test" name="Suite">
+<parameter name="Browser" value="Chrome"/>
+
+<test name="Chrome">
+<classes>
+<class name="automationTests.CrossBrowserTest"/>
+</classes>
+</test>
+<test name="Browser">
+<parameter name="Browser" value="Browser"/>
+<classes>
+<class name="automationTests.CrossBrowserTest"/>
+</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->
